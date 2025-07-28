@@ -18,10 +18,10 @@ public class TestScript {
 		signIn.click();
 		
 		WebElement username = base.element("//input[@id='email']");
-		username.sendKeys("Sudarofficial21@gmail.com");
+		username.sendKeys("rathinadevi2001@gmail.com");
 		
 		WebElement password = base.element("//input[@type='password']");
-		password.sendKeys("Sudar@123");
+		password.sendKeys("Rathina@2002");
 		
 		WebElement submit = base.element("//span[text()='Sign In']");
 		submit.click();
